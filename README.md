@@ -6,6 +6,8 @@ A preconfigured Ubuntu Server 14.04 Vagrant environment, complete with PHP 5.5, 
 Usage
 =====
 
+Copy `Vagrantfile`, `bootstrap-root.sh`, and `bootstrap-vagrant.sh` into your project's root.
+
 `vagrant up` to provision the new environment.
 
 `vagrant ssh` to ssh to the testing environment.
