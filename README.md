@@ -8,6 +8,8 @@ Usage
 
 Copy `Vagrantfile`, `bootstrap-root.sh`, and `bootstrap-vagrant.sh` into your project's root.
 
+Modify the installed packages in `bootstrap-root.sh` to fit your project's dependencies.
+
 `vagrant up` to provision the new environment.
 
 `vagrant ssh` to ssh to the testing environment.
